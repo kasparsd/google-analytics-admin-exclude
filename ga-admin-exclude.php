@@ -7,7 +7,7 @@
 	Version: 1.1
 */
 
-add_action( 'wp_footer', 'ga_admin_exclude' );
+add_action( 'wp_footer', 'ga_admin_exclude', 4 );
 
 function ga_admin_exclude() {
 	global $current_user;
